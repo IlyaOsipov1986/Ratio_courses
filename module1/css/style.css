@@ -193,6 +193,9 @@ body {
 .page__features-block {
     position: relative;
     padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .features-block__title {
     text-align: center;
@@ -202,8 +205,10 @@ body {
     font-weight: 700;
 }
 .features-block__text {
-    display: flex;
-    align-content: center;
+   text-align: center;
+    color: #4B5D68;
+    line-height: 160%;
+    font-weight: 500;
 }
 
 
