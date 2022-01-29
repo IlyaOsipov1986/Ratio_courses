@@ -58,7 +58,7 @@ body {
     object-fit: cover;
 
 }
-/*------Шапка сайта----------------------------------------------------------------------*/
+/*------Шапка сайта----------------------------------------------------------------------------*/
 .header {
     position: absolute;
     width: 100%;
@@ -93,22 +93,23 @@ body {
     font-weight: 500;
     line-height: calc(24 / 14 * 100%);
 }
-/*------PAGE----------------------------------------------------------------------*/
+/*------Основная страница и блоки-------------------------------------------------------------------*/
 .page {
     flex: 1 1 auto;
 }
 .page__main-block {
 
 }
-/*------Main Block----------------------------------------------------------------------*/
+/*------Main Block----------------------------------------------------------------------------*/
 .main-block {
     position: relative;
 }
+
 .main-block__container {
 
 }
 .main-block__body {
-    padding: 184px 0 385px 0;
+    padding: 184px 0 300px 0;
     position: relative;
     z-index: 2;
     max-width: 645px;
@@ -155,5 +156,55 @@ body {
     height: 468px;
 
 }
-/*------Подвал сайта----------------------------------------------------------------------*/
+/*------Second Block-----------------------------------------------------------------------------*/
+.page__second-block {
+    position: relative;
+    padding-bottom: 150px;
+}
+.second-block {
+    display: flex;
+    position: relative;
+    z-index: 3;
+    max-width: 1117px;
+    max-height: 560px;
+    background-color: #ffc0cb;
+    border-radius: 50px;
+    align-items: center;
+}
+.second-block-description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.second-block__title {
+    font-size: 40px;
+    color: #212353;
+    font-weight: 700;
+    line-height: 130%
+}
+.second-block__text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #4B5D68;
+    line-height: 160%
+}
+/*------Блок Features----------------------------------------------------------------------*/
+.page__features-block {
+    position: relative;
+    padding-bottom: 150px;
+}
+.features-block__title {
+    text-align: center;
+    color: #212353;
+    font-size: 40px;
+    line-height: 130%;
+    font-weight: 700;
+}
+.features-block__text {
+    display: flex;
+    align-content: center;
+}
 
+
+/*------Подвал сайта----------------------------------------------------------------------*/
