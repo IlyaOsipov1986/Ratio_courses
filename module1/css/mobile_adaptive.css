@@ -1,0 +1,48 @@
+/*------Шапка----------------------------------------------------------------------*/
+@media (max-width: 992px) {
+    .header__menu {
+        margin: 0 0 0 80px;
+    }
+}
+@media (max-width: 767px) {
+    .header__menu {
+        margin: 0 0 0 40px;
+    }
+}
+@media (max-width: 479px) {
+    .header__menu {
+        margin: 0 0 0 30px;
+    }
+    .menu__link {
+        font-size: 18px;
+    }
+}
+/*------Основной контент----------------------------------------------------------------------*/
+@media (max-width: 971px) {
+  .main-block__image img {
+      object-position: right;
+  }
+    .main-block__body {
+        padding: 120px 0 191px 0;
+    }
+}
+@media (max-width: 963px) {
+    .main-block__image {
+        opacity: 50%;
+    }
+}
+@media (max-width: 800px) {
+    .main-block__title {
+       font-size: 35px;
+    }
+    .main-block__text {
+        font-size: 14px;
+    }
+    .main-block__button {
+        font-size: 14px;
+        min-height: 40px;
+        max-width: 120px;
+        color: white;
+        line-height: 160%;
+    }
+}
