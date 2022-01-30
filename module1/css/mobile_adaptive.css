@@ -135,22 +135,64 @@
     .service-block__services__image {
     display: none;
     }
-    .service-block__services-title{
+    .service-block__services-title {
         font-size: 20px;
     }
     .service-block__services-text {
         font-size: 14px;
     }
-    .service-block__services {
+    .service-block__services-item1, .service-block__services-item2, .service-block__services-item3, .service-block__services-item4 {
         width: 320px;
         height: 320px;
         border-radius: 20px;
         padding: 15px 5px 15px 10px;
     }
-    .service-block__services:before, .service-block__services:after {
+    .service-block__services-item1:before, .service-block__services-item1:after,
+    .service-block__services-item2:before, .service-block__services-item2:after,
+    .service-block__services-item3:before, .service-block__services-item3:after,
+    .service-block__services-item4:before, .service-block__services-item4:after
+    {
         display: none;
     }
 }
+/*------Блок слайдера(1130px)------------------------------------------------------------------------*/
+@media (max-width: 1130px) {
+    .slider-page {
+       border: none;
+    }
+    .testimonials-block__slider {
+        width: 1118px;
+    }
+    .slider-page__body {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 5px 7px 5px 19px;
 
+    }
+    .slider-page__icon {
+        display: none;
+    }
+    .slider-page__body-title {
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 160%;
+    }
+
+    .slider-page_descript__text {
+        font-size: 14px;
+        line-height: 180%;
+        font-weight: 400;
+        color: #4B5D68;
+    }
+}
+
+/*------Блок слайдера(559px)------------------------------------------------------------------------*/
+@media (max-width: 559px) {
+    .testimonials-block {
+        display: none;
+    }
+
+}
 
 
