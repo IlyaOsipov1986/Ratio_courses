@@ -194,5 +194,16 @@
     }
 
 }
+/*------Блок Футера(1130px)------------------------------------------------------------------------*/
+@media (max-width: 1135px) {
+    .footer__items {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding:40px 15px 65px 15px;
+        gap: 50px;
+    }
 
-
+}
