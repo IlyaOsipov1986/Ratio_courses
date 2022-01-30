@@ -1,4 +1,4 @@
-/*------Шапка----------------------------------------------------------------------*/
+/*------Шапка(992px)------------------------------------------------------------------------------*/
 @media (max-width: 992px) {
     .header__menu {
         margin: 0 0 0 80px;
@@ -17,7 +17,7 @@
         font-size: 18px;
     }
 }
-/*------Основной контент----------------------------------------------------------------------*/
+/*------Основной контент(971px)----------------------------------------------------------------------*/
 @media (max-width: 971px) {
   .main-block__image img {
       object-position: right;
@@ -46,6 +46,7 @@
         line-height: 160%;
     }
 }
+/*------Второй блок и основной контент(1020px)----------------------------------------------------------------------*/
 @media (max-width: 1020px) {
     .second-block__img {
         display: none;
@@ -55,10 +56,11 @@
         display: flex;
         justify-content: center;
         align-content: center;
+        padding: 15px 15px;
     }
 
     .main-block__body {
-        padding: 120px 0 300px 0;
+        padding: 120px 0 250px 0;
     }
 
     .second-block__title {
@@ -71,7 +73,84 @@
         color: #4B5D68;
         line-height: 100%
     }
-    .second-block {
-        border-radius: 0;
+
+}
+/*------Блок features и втрой блок(520px)----------------------------------------------------------------------*/
+@media (max-width: 520px) {
+    .features-block__title {
+        font-size: 20px;
+    }
+
+    .features-block__text {
+        font-size: 14px;
+    }
+
+    .page__second-block {
+        position: relative;
+        padding-bottom: 100px;
     }
 }
+/*------Блок сервисов и изображений сервисов(685px)----------------------------------------------------------------------*/
+@media (max-width: 685px) {
+    .page__service-block {
+        position: relative;
+        padding-bottom: 100px;
+    }
+    .service-block {
+        margin-left: 100px;
+        gap: 40px;
+    }
+    .service-block__services {
+        width: 320px;
+        height: 320px;
+        border-radius: 20px;
+        padding: 15px 5px 15px 50px;
+    }
+    .service-block__services:before, .service-block__services:after{
+        border-radius: 20px;
+    }
+    ._image-size1 {
+        width: 150px;
+        height: 150px;
+    }
+    ._image-size2 {
+        width: 150px;
+        height: 150px;
+    }
+    ._image-size3 {
+        width: 150px;
+        height: 150px;
+    }
+    ._image-size4 {
+        width: 150px;
+        height: 150px;
+    }
+}
+/*------Блок сервисов(485px)------------------------------------------------------------------------*/
+@media (max-width: 485px) {
+    .service-block {
+        margin-left: 0;
+        gap: 40px;
+    }
+    .service-block__services__image {
+    display: none;
+    }
+    .service-block__services-title{
+        font-size: 20px;
+    }
+    .service-block__services-text {
+        font-size: 14px;
+    }
+    .service-block__services {
+        width: 320px;
+        height: 320px;
+        border-radius: 20px;
+        padding: 15px 5px 15px 10px;
+    }
+    .service-block__services:before, .service-block__services:after {
+        display: none;
+    }
+}
+
+
+
