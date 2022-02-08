@@ -31,6 +31,7 @@ html,
 body {
     height: 100%;
     line-height: 1;
+/* TODO: следует указывать семейство шрифтов, здесь нужно font-family: Ubuntu, sans-serif */
     font-family: UBUNTU;
     font-size: 18px;
 }
@@ -325,6 +326,11 @@ body {
     height: 205px;
 }
 
+/* TODO: классы service-block__services-item* одинаковые с одной лишь разницей в цвете,
+     Не нужно дублировать одинаковый код, когда можно использовать дополнительный класс с разным цветом
+     для каждого блока
+*/
+
 .service-block__services-item1:before, .service-block__services-item1:after {
     content:'';
     position: absolute;
@@ -343,6 +349,10 @@ body {
     -ms-transform: skewX(-5deg);
     transform: skewX(-5deg);
 }
+/* TODO: классы service-block__services-item*:after абсолютно одинаковы, можно использовать один класс
+   для блоков, CSS можно и нужно писать и переиспользовать для разных одинаковых блоков.
+   Вот будет 100 или 1000 таких блоков -- тоже будете писать для каждого стили?
+*/
 .service-block__services-item1:after{
     -webkit-transform: skewX(5deg);
     -moz-transform: skewX(5deg);
